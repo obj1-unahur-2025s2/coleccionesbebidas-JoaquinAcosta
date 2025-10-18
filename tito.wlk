@@ -28,3 +28,10 @@ object terere {
         //tambien (cantidad * 0.1).max(1)
     }
 }
+
+object aguaSaborizada {
+    method rendimiento(cantidad) {
+        return 1 + (cantidad / 4)
+    } 
+}
+
